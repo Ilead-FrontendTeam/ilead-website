@@ -1,0 +1,322 @@
+@media (max-width:320px) {
+
+    .service-group-intro h1::before,
+    .service-group-intro h1::after,
+    .service-group-intro h2::before,
+    .service-group-intro h2::after {
+        display: none;
+    }
+    .service-group-details p {
+        font-size: 19px;
+    }
+}
+
+@media(min-width:450px) and (max-width:650px) {
+    .sp-title::before{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+    .stickyy{
+        height: auto;
+    }
+
+    header {
+        height: auto;
+
+        nav {
+            .burger {
+                color: #fff;
+            }
+
+            .dropdown-menu {
+                background-color: $main-color;
+                border: 1px solid #fff;
+
+                .dropdown-item {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    header nav .navbar-collapse ul {
+        margin-left: 10px !important;
+    }
+
+    .main-nslider {
+        height: 62vh;
+    }
+
+    .about-section {
+        h2 {
+            margin-top: 50px;
+        }
+    }
+
+    /*start intro section*/
+    .intro {
+        .avatar-section {
+            width: 100%;
+
+            .avatar {
+                img {
+                    width: 100%;
+                    height: 345px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .main-slideee {
+        .item-overlay {
+            width: 95% !important;
+        }
+    }
+
+    /*end intro section*/
+
+    /*start partners section*/
+    .partners {
+        // height: 35vh;
+        padding: 10% 0%;
+    }
+
+    /*end partners section*/
+
+    /*start clients section*/
+    .clients {
+        .slick-dots {
+            display: none !important;
+        }
+    }
+
+    /*end clients section*/
+
+    /*start about section*/
+    .about-section {
+        background-image: none;
+        height: auto !important;
+
+        .about-img {
+            // width: 100%;
+            display: none;
+        }
+
+        .about-sec {
+            width: 100%;
+        }
+    }
+
+    /*end about section*/
+
+
+    /*start dna section*/
+    .dna {
+        .timeline {
+            width: 100%;
+            margin-top: 10%;
+        }
+    }
+
+    /*end dna section*/
+
+    /*start success story section*/
+    .success-story {
+        .nums {
+            margin-top: 25%;
+        }
+
+        .sucess-card {
+            margin-top: 21%;
+        }
+    }
+
+    /*end success story section*/
+
+
+    /*start Testimonials section*/
+    .Testimonials {
+
+        .Testimonials-card {
+            height: auto;
+            width: 100%;
+
+            .slick-next {
+
+                display: none;
+            }
+
+            .slick-prev {
+                display: none;
+            }
+
+
+        }
+
+        .slick-det,
+        .slick-prev,
+        .slick-nex {
+            display: none !important;
+        }
+    }
+
+    /*end Testimonials section*/
+
+    /*start cooprate section*/
+    .cooprate {
+        height: auto;
+
+        .cooprate-details {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 4%;
+            flex-wrap: wrap;
+        }
+    }
+
+    /*end cooprate section*/
+
+
+    /*start clients sections*/
+    .clients {
+        height: 35vh;
+        padding: 10% 0%;
+    }
+
+    /*end clients sections*/
+
+
+
+    /*start about page (group)*/
+    .sub-intro {
+        .sub-intro-content {
+            flex-wrap: wrap;
+        }
+
+        .breadcrumb {
+            padding: 10px 0px !important;
+        }
+    }
+
+    .mission {
+        padding: 4% 0px;
+    }
+
+    .mission-img {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+
+    .ceo-details {
+        width: 100% !important;
+    }
+
+    /*end about page*/
+
+
+    footer {
+        .footer-logo {
+            margin-bottom: 35px;
+        }
+
+        h4 {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 25px;
+        }
+    }
+
+    .sp-title::before {
+        right: 38%;
+    }
+
+    .sp-img {
+        width: 100%;
+    }
+
+    .contact-page .contact-page-title .contact-tabs {
+        flex-wrap: wrap;
+    }
+
+    .contact-page .contact-page-title .contact-tabs .nav-pills {
+        width: 100%;
+    }
+
+    .contact-page .contact-page-title .contact-tabs .tab-content .contact-tab-content .branch-address .branch-address-details div {
+        flex-wrap: wrap;
+    }
+
+    .contact-page .contact-form {
+        margin-top: 25px;
+    }
+
+    .company-header .campaines-nav ul {
+        flex-wrap: wrap;
+    }
+
+
+    .process-box {
+        margin-bottom: 15px;
+
+        p {
+            margin-bottom: 5px;
+        }
+    }
+
+    .steps-more {
+        font-size: 16px;
+        margin: 10px 0px 3px 0px;
+    }
+
+    #leftmenu {
+        display: none;
+    }
+
+    .scroll-top {
+        right: 35%;
+        display: none !important;
+    }
+
+    .stickyy .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .ch-order {
+        order: -2;
+    }
+
+    .sp-title::before {
+        right: 39%;
+    }
+
+
+    .service-group-intro .service-group-intro-img {
+        width: 100%;
+        height: 250px;
+        margin: 15px auto;
+    }
+
+    .service-company-show h2 {
+        font-size: 21px;
+    }
+
+    .service-group-intro h1 {
+        font-size: 32px;
+    }
+
+
+
+}
