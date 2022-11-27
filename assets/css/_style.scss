@@ -1654,26 +1654,36 @@ footer {
 
 .c-service-card {
     width: 100%;
-    height: 300px;
+    height: 350px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .26);
     margin-bottom: 15px;
     border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
 
     .c-service-card-img {
         width: 100%;
-        height: 60%;
+        height: 50%;
+        border-radius: 5px 5px 0px 0px;
 
         img {
             width: 100%;
             height: 100%;
+            border-radius: 5px 5px 0px 0px;
         }
     }
 
     h4 {
         color: $sub-color;
-        margin: 15px auto;
+        margin: 10px auto;
         text-align: center;
         font-weight: 600;
+    }
+
+    p{
+        margin: 10px auto;
+        font-size: 15px;
+        text-align: center;
+        padding: 0px 10px;
     }
 
     .c-service-btn {
@@ -1684,10 +1694,11 @@ footer {
         height: 35px;
         justify-content: center;
         align-items: center;
-        margin: 25px auto;
+        margin: 15px auto;
         border-radius: 5px;
-        color: $main-color;
+        color: $sub-color;
         transition: all .3s ease-in-out;
+
 
         &:hover {
             background-color: $sub-color;
