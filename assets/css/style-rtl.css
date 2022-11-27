@@ -235,7 +235,7 @@ header nav .dropdown-menu .dropdown-item {
   height: 100%;
 }
 .main-nslider .main-slideee .item {
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(../images/slider-bg.webp);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -389,7 +389,7 @@ header nav .dropdown-menu .dropdown-item {
 /*end about section*/
 /*start news section*/
 .news-section {
-  background-image: url(../images/ceo-bg1.jpg);
+  background-image: url(../images/ceo-bg1.webp);
   background-size: cover;
   padding: 5% 0% 5% 0%;
 }
@@ -560,7 +560,7 @@ header nav .dropdown-menu .dropdown-item {
 /*end success section*/
 /*start Testimonials section*/
 .Testimonials {
-  background-image: url(../images/ceo-bg1.jpg);
+  background-image: url(../images/ceo-bg1.webp);
   padding: 5% 0%;
 }
 .Testimonials h2 {
@@ -617,13 +617,11 @@ header nav .dropdown-menu .dropdown-item {
   text-align: center;
   color: #fff;
 }
-.clients .client-card {
-  height: 100px;
-  width: 100px;
-}
 .clients .client-card img {
-  width: 100%;
-  height: 100%;
+  height: 100px;
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /*end clients section*/
@@ -668,7 +666,7 @@ header nav .dropdown-menu .dropdown-item {
 /*end cooprate section*/
 /*start footer*/
 footer {
-  background-image: url(../images/footerBg.jpg);
+  background-image: url(../images/footerBg.webp);
   background-size: cover;
   padding: 25px 0px;
 }
@@ -1174,7 +1172,7 @@ footer .social a:hover {
 }
 
 .ceo {
-  background-image: url(../images/ceo-bg6.jpg);
+  background-image: url(../images/ceo-bg8.png);
   background-size: cover;
   min-height: 600px;
   padding: 5% 0%;
@@ -1223,6 +1221,9 @@ footer .social a:hover {
   bottom: -21px;
   width: 35px;
   height: 35px;
+}
+.ceo .ceo-details .ceo-word p {
+  padding-bottom: 25px;
 }
 
 /*end about page*/
@@ -1556,7 +1557,7 @@ footer .social a:hover {
 }
 
 .sub-pages-container {
-  background-image: url(../images/sub-bg8.jpg);
+  background-image: url(../images/sub-bg8.webp);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;

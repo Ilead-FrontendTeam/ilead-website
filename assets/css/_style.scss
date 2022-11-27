@@ -305,7 +305,7 @@ header {
         height: 100%;
 
         .item {
-            background-image: url(../images/slider-bg.jpg);
+            background-image: url(../images/slider-bg.webp);
             background-size: cover;
             display: flex;
             justify-content: center;
@@ -504,8 +504,8 @@ header {
 
 /*start news section*/
 .news-section {
-    // background-image: url(../images/footerBg.jpg);
-    background-image: url(../images/ceo-bg1.jpg);
+    // background-image: url(../images/footerBg.webp);
+    background-image: url(../images/ceo-bg1.webp);
     background-size: cover;
     padding: 5% 0% 5% 0%;
 
@@ -600,7 +600,7 @@ header {
 .services {
     margin: $section-margin;
     padding: 5% 0%;
-    // background-image: url(../images/BG2.jpg);
+    // background-image: url(../images/BG2.webp);
 
     h2 {
         text-align: center;
@@ -714,7 +714,7 @@ header {
 
 /*start Testimonials section*/
 .Testimonials {
-    background-image: url(../images/ceo-bg1.jpg);
+    background-image: url(../images/ceo-bg1.webp);
     // background-size: cover;
     padding: 5% 0%;
 
@@ -780,7 +780,7 @@ header {
 
 /*start clients section*/
 .clients {
-    //background-image: url(../images/BG2.jpg);
+    //background-image: url(../images/BG2.webp);
     background-color: $main-color;
     // height: 45vh;
     padding: 5% 0%;
@@ -791,12 +791,12 @@ header {
     }
 
     .client-card {
-        height: 100px;
-        width: 100px;
+        
 
         img {
-            width: 100%;
-            height: 100%;
+            height: 100px;
+            width: 200px;
+            object-fit: contain;
         }
     }
 
@@ -851,7 +851,7 @@ header {
 
 /*start footer*/
 footer {
-    background-image: url(../images/footerBg.jpg);
+    background-image: url(../images/footerBg.webp);
     background-size: cover;
     padding: 25px 0px;
 
@@ -1459,7 +1459,7 @@ footer {
 }
 
 .ceo {
-    background-image: url(../images/ceo-bg6.jpg);
+    background-image: url(../images/ceo-bg8.png);
     background-size: cover;
     min-height: 600px;
     padding: 5% 0%;
@@ -1513,6 +1513,10 @@ footer {
                 bottom: -21px;
                 width: 35px;
                 height: 35px;
+            }
+
+            p{
+                padding-bottom: 25px;
             }
         }
     }
@@ -1934,7 +1938,7 @@ footer {
 }
 
 .sub-pages-container {
-    background-image: url(../images/sub-bg8.jpg);
+    background-image: url(../images/sub-bg8.webp);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
