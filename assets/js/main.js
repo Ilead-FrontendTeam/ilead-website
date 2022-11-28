@@ -5,19 +5,16 @@ function myFunction() {
 } 
 
 
-//scroll to button
-// let scrolBtn = document.querySelector(".scroll-top");
-// window.onscroll = function(){
-//   if(this.scrollY >= 500){
-//     scrolBtn.classList.add("scroll-show")
-//   }
-//   else{
-//     scrolBtn.classList.remove("scroll-show")
-//   }
-// }
+
+//show video
+$(".video-icon").click(function(){
+    $(".our-modal").css({"display": "flex"});
+});
 
 
-
+$(".close-icon").click(function(){
+    $(".our-modal").css({"display": "none"});
+});
 
 
 
@@ -323,7 +320,7 @@ var scrolBtn = document.querySelector(".scroll-top");
 var sticky = navbar.offsetTop;
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunctionn() {
-  if (window.pageYOffset >= 400) {
+  if (window.pageYOffset >= 300) {
     navbar.classList.add("stickyy");
     scrolBtn.classList.add("scroll-show")
     
